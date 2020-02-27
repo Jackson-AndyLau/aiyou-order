@@ -30,5 +30,6 @@
 	<modules>
 		<module>aiyou-order-interface</module>
 		<module>aiyou-order-service</module>
+		<module>aiyou-order-dao</module>
 	</modules>
 </project>
