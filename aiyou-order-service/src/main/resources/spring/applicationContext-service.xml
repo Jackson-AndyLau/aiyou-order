@@ -14,7 +14,7 @@
 
 	<!-- 配置service扫描包 -->
 	<context:component-scan
-		base-package="com.huazai.b2c.aiyou.service" />
+		base-package="com.huazai.aiyou.order.service" />
 
 	<!-- 加载配置文件配置 -->
 	<context:property-placeholder
@@ -29,7 +29,7 @@
 	<dubbo:protocol name="dubbo" port="20885" />
 
 <!-- 	<bean id="tbDubboServiceImpl"
-		class="com.huazai.b2c.aiyou.service.impl.TbDubboServiceImpl" /> -->
+		class="com.huazai.aiyou.order.service.impl.TbDubboServiceImpl" /> -->
 	<!-- 声明需要暴露的服务端口 -->
 <!-- 	<dubbo:service
 		interface="com.huazai.b2c.aiyou.service.TbDubboService"

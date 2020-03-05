@@ -35,6 +35,6 @@
 	</bean>
 	<bean class="org.mybatis.spring.mapper.MapperScannerConfigurer">
 		<property name="basePackage"
-			value="com.huazai.b2c.aiyou.mapper" />
+			value="com.huazai.aiyou.order.mapper" />
 	</bean>
 </beans>
